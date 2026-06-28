@@ -1,6 +1,7 @@
 import { View,Text,Image } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 import './index.css';
+import { logo } from '@/constants/logo';
 
 function Home(){
 
@@ -10,7 +11,7 @@ function Home(){
             <View className="header">
                 <View className='logoview'>
                     <Image
-                        source={require('../../assets/images/logo.png')}
+                        source={logo.logox}
                         className='home_logo'
                     />
                 </View>
