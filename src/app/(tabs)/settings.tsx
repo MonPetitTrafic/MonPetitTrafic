@@ -20,7 +20,7 @@ function Preferences(){
                 )}
                 data={lines_data}
                 renderItem={({ item }) => (
-                    <View style={{flexDirection:'row'}}>
+                    <View style={styles.checkbox_line}>
                         <CheckBox/>
                         <Image
                             source={item.icon}
@@ -29,7 +29,7 @@ function Preferences(){
                     </View>
                 )}
                 keyExtractor={(item)=>item.name}
-                ItemSeparatorComponent={() => <View style={{marginTop:5,marginBottom:5}}/>}
+                ItemSeparatorComponent={() => <View style={{marginTop:2.5,marginBottom:2.5}}/>}
             />
 
         </SafeAreaView>

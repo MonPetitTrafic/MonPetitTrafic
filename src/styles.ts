@@ -61,8 +61,8 @@ export default StyleSheet.create({
     },
 
     line_icon:{
-        width: 30,
-        height: 30
+        width: 45,
+        height: 45
     },
 
     button_container:{
@@ -75,6 +75,12 @@ export default StyleSheet.create({
         marginTop: 10,
         marginLeft: 10,
         fontWeight: 600
+    },
+    
+    checkbox_line:{
+        flexDirection:'row',
+        margin: 2.5,
+        marginLeft: 10
     }
 
 })
