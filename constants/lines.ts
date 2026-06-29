@@ -49,4 +49,4 @@ export const lines = {
     A,B,C,D,E,M1,M2,M3,M3bis,M4,M5,M6,M7,M7bis,M8,M9,M10,M11,M12,M13,M14,H,J,K,L,N,P,R,U,V,T1,T2,T3a,T3b,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,C1
 }
 
-export type LinesType = keyof typeof lines;
+export type LinesValidNames = keyof typeof lines;
