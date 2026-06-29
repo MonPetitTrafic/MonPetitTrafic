@@ -36,8 +36,9 @@ export default StyleSheet.create({
         borderWidth: 2,
         borderColor: 'black',
         borderStyle: 'solid',
-        borderRadius: '9999px',
-        marginBottom: 20
+        borderRadius: '36px',
+        marginBottom: 20,
+        height: 250
     },
 
     last_modif_title:{

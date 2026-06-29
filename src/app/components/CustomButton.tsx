@@ -6,7 +6,8 @@ function StyleButton(){
         btn:{
             borderColor: 'black',
             borderWidth: 1,
-            borderStyle: "solid"
+            borderStyle: "solid",
+            borderRadius: '9999px'
         },
 
         btn_active:{
@@ -15,6 +16,12 @@ function StyleButton(){
 
         btn_deactivate:{
             backgroundColor: 'transparent'
+        },
+
+        inner_text:{
+            fontSize: 20,
+            textAlign: 'center',
+            padding: 5
         }
     })
 }
@@ -23,17 +30,14 @@ function CustomButton({ txt,onPress }:CustomButtonProps){
     const styles = StyleButton();
     const [isPressed,setIsPressed] = useState<boolean>(false);
 
-    const augmentedOnPress = () => {
-        setIsPressed(!isPressed);
-        onPress(); // onPress should not return something
-    }
-
     return(
         <Pressable
             style={isPressed ? [styles.btn, styles.btn_active] : [styles.btn, styles.btn_deactivate]}
-            onPress={augmentedOnPress}
+            onPress={onPress}
+            onPressIn={() => setIsPressed(true)}
+            onPressOut={() => setIsPressed(false)}
         >
-            <Text>{txt}</Text>
+            <Text style={styles.inner_text}>{txt}</Text>
         </Pressable>
     )
 }

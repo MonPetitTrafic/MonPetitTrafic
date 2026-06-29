@@ -1,7 +1,8 @@
-import { View,Text,Image } from 'react-native';
+import { View,Text,Image, Pressable } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 import styles from '@/styles';
 import { logo } from '@/constants/logo';
+import CustomButton from '../components/CustomButton';
 
 function Home(){
 
@@ -22,16 +23,24 @@ function Home(){
 
             <View style={styles.body}>
                 <View style={styles.home_prbs}>
-                    <Text style={styles.last_modif} numberOfLines={2}>
-                        Dernière actualisation : xx xxxxxxxx 20xx, xxxx
-                    </Text>
+                    <View>
+                        <Text style={styles.last_modif_title}>
+                            Dernière actualisation :
+                        </Text>
+                        <Text style={styles.last_modif_date}>
+                            xx xxxxxxxx 20xx, xxxx
+                        </Text>
+                    </View>
                     <View style={styles.home_alert_icons}>
                         /insert icons/
                     </View>
                 </View>
 
                 <View style={styles.button_container}>
-                    /button/
+                    <CustomButton
+                        txt='Mettre à jour les préférences'
+                        onPress={() => {}}
+                    />
                 </View>
             </View>
             
