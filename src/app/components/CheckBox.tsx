@@ -1,6 +1,8 @@
 import check from "@/constants/icons";
 import { useState } from "react";
-import { View,StyleSheet,Image } from "react-native"
+import { Pressable,StyleSheet,Image } from "react-native"
+import { set_lines_data } from "../lines_data";
+import { LinesValidNames } from "@/constants/lines";
 
 function StyleCheckBox(){
     return StyleSheet.create({
@@ -20,17 +22,25 @@ function StyleCheckBox(){
     })
 }
 
-function CheckBox(){
+function CheckBox({ line_name }:{ line_name:LinesValidNames }){
     const styles = StyleCheckBox();
     const [isChecked,setIsChecked] = useState<boolean>(false);
 
+    const handleCheckBox = (line_name:LinesValidNames) => {
+        set_lines_data(line_name,!isChecked);
+        setIsChecked(!isChecked);
+    }
+
     return(
-        <View style={styles.box}>
+        <Pressable
+            style={styles.box}
+            onPress={() => handleCheckBox(line_name)}
+        >
             {isChecked ? 
                 <Image source={check} style={styles.tick}/>
                 : <></>
             }
-        </View>
+        </Pressable>
     )
 }
 

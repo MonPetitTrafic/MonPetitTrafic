@@ -21,7 +21,7 @@ function Preferences(){
                 data={get_lines_data()}
                 renderItem={({ item }) => (
                     <View style={styles.checkbox_line}>
-                        <CheckBox slug={item.slug}/>
+                        <CheckBox line_name={item.name}/>
                         <Image
                             source={item.icon}
                             style={styles.line_icon}
