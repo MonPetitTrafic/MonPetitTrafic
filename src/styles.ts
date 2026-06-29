@@ -12,34 +12,45 @@ export default StyleSheet.create({
     },
 
     logoview:{
-
+        marginTop: 20,
+        marginBottom: 20        
     },
 
     home_logo:{
-        width: 0.5,
-        height: 0.5
+        width: 300,
+        height: 300,
+        borderRadius: '24px'
     },
 
     version_label:{
-        fontSize: 0.5,
-        color: 'gray'
+        fontSize: 12,
+        color: 'gray',
+        verticalAlign: 'bottom'
     },
 
     body:{
-
+        margin: 10
     },
 
     home_prbs:{
         borderWidth: 2,
         borderColor: 'black',
         borderStyle: 'solid',
-        borderRadius: '9999px'
+        borderRadius: '9999px',
+        marginBottom: 20
     },
 
-    last_modif:{
-        fontSize: 2,
-        fontWeight: 700,
+    last_modif_title:{
+        fontSize: 18,
+        fontWeight: 600,
         textAlign: 'center'
+    },
+
+    last_modif_date:{
+        fontSize: 20,
+        fontWeight: 700,
+        textAlign: 'center',
+        marginBottom: 10
     },
 
     home_alert_icons:{
@@ -49,7 +60,7 @@ export default StyleSheet.create({
     },
 
     button_container:{
-        
+
     }
 
 })
