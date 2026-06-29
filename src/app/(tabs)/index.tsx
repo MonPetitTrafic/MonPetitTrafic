@@ -1,4 +1,4 @@
-import { View,Text,Image, Pressable } from 'react-native';
+import { View,Text,Image } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
 import styles from '@/styles';
 import { logo } from '@/constants/logo';
@@ -39,6 +39,7 @@ function Home(){
                 <View style={styles.button_container}>
                     <CustomButton
                         txt='Mettre à jour les préférences'
+                        target='/(tabs)/settings'
                         onPress={() => {}}
                     />
                 </View>

@@ -60,8 +60,27 @@ export default StyleSheet.create({
         alignItems: "center"
     },
 
+    line_icon:{
+        width: 45,
+        height: 45
+    },
+
     button_container:{
 
+    },
+
+    title:{
+        fontSize: 50,
+        textAlign: 'left',
+        marginTop: 10,
+        marginLeft: 10,
+        fontWeight: 600
+    },
+    
+    checkbox_line:{
+        flexDirection:'row',
+        margin: 2.5,
+        marginLeft: 10
     }
 
 })
