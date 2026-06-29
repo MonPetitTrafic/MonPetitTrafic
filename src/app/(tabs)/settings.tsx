@@ -28,6 +28,8 @@ function Preferences(){
                         />
                     </View>
                 )}
+                keyExtractor={(item)=>item.name}
+                ItemSeparatorComponent={() => <View style={{marginTop:5,marginBottom:5}}/>}
             />
 
         </SafeAreaView>
