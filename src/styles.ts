@@ -60,8 +60,21 @@ export default StyleSheet.create({
         alignItems: "center"
     },
 
+    line_icon:{
+        width: 30,
+        height: 30
+    },
+
     button_container:{
 
+    },
+
+    title:{
+        fontSize: 50,
+        textAlign: 'left',
+        marginTop: 10,
+        marginLeft: 10,
+        fontWeight: 600
     }
 
 })
