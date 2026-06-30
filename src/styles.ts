@@ -83,8 +83,9 @@ export default StyleSheet.create({
     },
 
     toggle_text:{
-        fontSize: 10,
-        fontWeight: 400
+        fontSize: 12.5,
+        fontWeight: 500,
+        marginVertical: 8.5
     },
     
     checkbox_line:{
