@@ -32,7 +32,11 @@ function Home(){
                         </Text>
                     </View>
                     <View style={styles.home_alert_icons}>
-                        /insert icons/
+                        <Text style={styles.DEV_to_complete}>
+                            ICI Retrouvez toutes les perturbations des lignes suivies en récap
+                            (icone de la ligne avec icone de perturbation + clic sur l'icone → ouvre popup
+                            avec la perturbation)
+                        </Text>
                     </View>
                 </View>
 

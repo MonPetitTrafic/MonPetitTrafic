@@ -81,6 +81,11 @@ export default StyleSheet.create({
         flexDirection:'row',
         margin: 2.5,
         marginLeft: 10
+    },
+
+    DEV_to_complete:{
+        color: 'red',
+        fontStyle: 'italic'
     }
 
 })
