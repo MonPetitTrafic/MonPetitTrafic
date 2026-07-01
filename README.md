@@ -1,4 +1,8 @@
-/insert logo/
+<p align='center'>
+ <img width="256" height="256" alt="logo" src="https://github.com/user-attachments/assets/397ecccd-1ea1-4f94-8d81-c8462cc25590" />
+ <h1 align='center'>Mon Petit Trafic</h1>
+</p>
+
 ______________
 <p style='text-align:center;font-weight:800'>Toutes vos infos trafic en un endroit, en un instant !</p>
 
@@ -9,7 +13,7 @@ ______________
 
 ___
 
-<p style='color:blue;font-weight:700'> Mais alors, quelle différence avec le service Infos Trafic d'Île-de-France Mobilités (IDFM) ?</p>
+### Mais alors, quelle différence avec le service Infos Trafic d'Île-de-France Mobilités (IDFM) ?
 
 Mon Petit Trafic a pour but de répondre à **trois manquements** du service fourni par IDFM :
 - 1️⃣ Beaucoup d'annonces, en particulier lorsque qu'elles concernent des légères perturbations (stationnements prolongés, suppression ponctuelle d'une mission, etc) ne sont pas communiquées auprès d'IDFM mais seulement sur X (ex-Twitter).
@@ -21,7 +25,7 @@ Par ailleurs, un constat fort important :
 
 Ainsi, vous l'aurez compris, Mon Petit Trafic est développé pour **rendre accessible à tous** les informations trafic diffusées par les opérateurs sur X.
 
-#⚙️ Fonctionnement
+# ⚙️ Fonctionnement
 
 ➡️ Mon Petit Trafic se base sur les **flux RSS générés par Nitter**\*, un service open-source permettant d'accéder au contenu de la plateforme X.
 - L'utilisateur peut **sélectionner les lignes** dont il souhaite suivre la situation du trafic depuis l'application Mon Petit Trafic.\
@@ -34,23 +38,23 @@ Ainsi, vous l'aurez compris, Mon Petit Trafic est développé pour **rendre acce
 
 \**Noter que ce projet n'est nullement affilié à (l'organisation de) Nitter.*
 
-#🡻 Installation
+# 🡻 Installation
 
 Mon Petit Trafic est toujours en phase de développement.\
 Elle sera bientôt accessible sur l'App Store (iOS) et le Play Store (Android).
 
-#💻 Contribuer
+# 💻 Contribuer
 
 Les contributions sont évidemment la bienvenue !\
 Que ce soit une résolution de bug, une nouvelle fonctionnalité, un typo corrigé ou même une précision dans la documentation, quelle que soit la forme de votre contribution, elle compte beaucoup pour l'avancée du projet Mon Petit Trafic.
 
 Pour plus de détails sur comment contribuer, consulter le fichier `CONTRIBUTING.md`.
 
-#🔑 License
+# 🔑 License
 
 Ce projet est fourni sous la licence **Apache 2.0**
 
-#📝 Précisions complémentaires
+# 📝 Précisions complémentaires
  
 1. Le projet Mon Petit Trafic est né d'un besoin d'accessibilité à de l'information publique générée par des instances publiques.
 2. Le projet Mon Petit Trafic n'est nullement affilié ni associé à Nitter, ni à X (ex-Twitter). Leurs logos et autres marques déposées restent sous leur propriété respective
