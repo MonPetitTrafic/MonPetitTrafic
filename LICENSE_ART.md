@@ -8,7 +8,7 @@ Fichier : `assets/images/logo.png`
 Logo Mon Petit Trafic © 2026 by Misbah Abdounour is licensed under CC BY-NC-SA 4.0.\
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Les variations du logo (fichiers `assets/images/logo_false_monochrom.png` et `assets/images/logo_foreground.png` sont donc également soumises à la licence CC BY-NC-SA 4.0.
+Les variations du logo (fichiers `assets/images/logo_false_monochrom.png` et `assets/images/logo_foreground.png`) sont donc également soumises à la licence CC BY-NC-SA 4.0.
 
 ## Icones de perturbation
 Fichiers :
